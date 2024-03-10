@@ -14,3 +14,16 @@ b[-1]
 b[1, 2]
 b[0:2, 2]
 
+for row in b:
+    print(row)
+
+for cell in b.flat:
+    print(cell)
+
+c = np.arange(6)
+
+c = np.arange(30).reshape(2,15)
+c
+
+np.hsplit(a,3)
+
